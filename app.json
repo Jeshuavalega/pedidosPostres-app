@@ -12,18 +12,30 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jessPasteleria.postrelistoapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.jessPasteleria.postrelistoapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "scheme": "postrelistoapp",
+    "extra": {
+      "eas": {
+        "projectId": "27096e09-4818-43e9-969c-0ebd8831a1e2"
+      }
     }
   }
 }
